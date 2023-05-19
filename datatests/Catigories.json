@@ -1,0 +1,15 @@
+{
+  "newCategory": {
+    "nameCategory": "Name Category_",
+    "slugCategory": "Slug Category_",
+    "parentCategory": "None",
+    "descriptionCategory": "Description Category_"
+  },
+  "editCategory": {
+    "editNameCategory": "Edit Name Category_",
+    "editSlugCategory": "Edit Slug Category_",
+    "editParentCategory": "Home",
+    "editDescriptionCategory": "Edit Description Category_"
+  }
+
+}

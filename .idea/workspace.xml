@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Wordpress-Hybrid-Webdriver:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cab95538-f80d-4249-a093-8be77cd45437" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datatests/Catigories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datatests/Media.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datatests/Page.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datatests/Post.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-grid/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-grid/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-grid/hubConfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium-grid/node_5555_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/BasePageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/BrowserLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/DataObjectBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/DatabaseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/EnviromentLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/GlobalConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commons/PageGeneratorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataTestModels/CategoryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataTestModels/MediaModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataTestModels/PageModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataTestModels/PostModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/BrowserNotSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/admin/AdminDashboardPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/admin/AdminLoginPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/admin/AdminMediaAddNewPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/admin/AdminMediaLibPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/admin/AdminPageAddNewPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/admin/AdminPageSearchPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/admin/AdminPostAddNewPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/admin/AdminPostCategoryPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/admin/AdminPostSearchPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/admin/AdminPostUpdateCategoryPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/user/UsePageDetailPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/user/UserHomePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/user/UserPostDetailPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/user/UserPostSearchPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/BasePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/admin/AdminDashboardPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/admin/AdminLoginPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/admin/AdminMediaAddNewPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/admin/AdminMediaLibraryPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/admin/AdminPageAddnewPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/admin/AdminPageSearchPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/admin/AdminPostAddnewPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/admin/AdminPostCategoryPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/admin/AdminPostSearchPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/admin/AdminPostUpdateCategoryPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/user/UserHomePagePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/user/UserPostDetailPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageUI/user/UserPostSearchPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/testCases/admin/Media_01_CRDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/testCases/admin/Page_01_CRUDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/testCases/admin/Post_01_CRUDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/testCases/admin/Post_Categories_01_CRUDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/testCases/admin/browserstack/BrowserStack_Post_01_CRUDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/testCases/admin/browserstack/BrowserStack_Post_Categories_01_CRUDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/testCases/admin/grid/Grid_Post_01_CRUDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/testCases/admin/grid/Grid_Post_Categories_01_CRUDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/commons/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/commons/driver/BrowserstackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/commons/driver/GridFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/commons/driver/LocalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/commons/reportConfig/AllureTestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/commons/reportConfig/MethodListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/commons/reportConfig/VerificationFailures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testSuits/testRunBrowserStack.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testSuits/testRunGrid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testSuits/testRunParallel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testSuits/testRunSingle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OeREbJ31iyrocLZAmCfr2GEFNI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/main/java/dataTestModels&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.75373995&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\04 - Online_Class_23\08 - Wordpress-Hybrid-Webdriver\Wordpress-Hybrid-Webdriver\src\main\java\dataTestModels" />
+      <recent name="D:\04 - Online_Class_23\08 - Wordpress-Hybrid-Webdriver\Wordpress-Hybrid-Webdriver\datatests" />
+      <recent name="D:\04 - Online_Class_23\08 - Wordpress-Hybrid-Webdriver\Wordpress-Hybrid-Webdriver\src\test\resources\testSuits" />
+      <recent name="D:\04 - Online_Class_23\08 - Wordpress-Hybrid-Webdriver\Wordpress-Hybrid-Webdriver\selenium-grid" />
+      <recent name="D:\04 - Online_Class_23\08 - Wordpress-Hybrid-Webdriver\Wordpress-Hybrid-Webdriver\src\test\java\com\wordpress\testCases\user" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\04 - Online_Class_23\08 - Wordpress-Hybrid-Webdriver\Wordpress-Hybrid-Webdriver" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="reportConfig" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="commons" />
+      <recent name="dataTestModels" />
+      <recent name="com.wordpress.testCases.admin.browserstack" />
+      <recent name="com.wordpress.testCases.admin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/test/resources/testSuits/testRunParallel.xml">
+    <configuration name="D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/test/resources/testSuits/testRunBrowserStack.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Wordpress-Hybrid-Webdriver" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testSuits/testRunBrowserStack.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/test/resources/testSuits/testRunGrid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Wordpress-Hybrid-Webdriver" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testSuits/testRunGrid.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/test/resources/testSuits/testRunParallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Wordpress-Hybrid-Webdriver" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testSuits/testRunParallel.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/test/resources/testSuits/testRunSingle.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Wordpress-Hybrid-Webdriver" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testSuits/testRunSingle.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/test/resources/testSuits/testRun.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Wordpress-Hybrid-Webdriver" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testSuits/testRun.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/test/resources/testSuits/testRunParallel.xml" />
+        <item itemvalue="TestNG.D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/test/resources/testSuits/testRunSingle.xml" />
+        <item itemvalue="TestNG.D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/test/resources/testSuits/testRunBrowserStack.xml" />
+        <item itemvalue="TestNG.D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/test/resources/testSuits/testRunGrid.xml" />
+        <item itemvalue="TestNG.D:/04 - Online_Class_23/08 - Wordpress-Hybrid-Webdriver/Wordpress-Hybrid-Webdriver/src/test/resources/testSuits/testRun.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cab95538-f80d-4249-a093-8be77cd45437" name="Changes" comment="" />
+      <created>1681918952674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681918952674</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="sql" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

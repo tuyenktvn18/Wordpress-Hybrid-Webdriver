@@ -1,0 +1,12 @@
+{
+  "image": [
+    {
+      "name": "imageForTest1",
+      "title": "imageForTest1.jpg"
+    },
+    {
+      "name": "imageForTest2",
+      "title": "imageForTest2.jpg"
+    }
+  ]
+}

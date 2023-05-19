@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Wordpress_Browserstack" >
+
+    <parameter name="envName" value="browserstack"/>
+
+    <listeners>
+        <listener class-name="commons.reportConfig.MethodListener" />
+        <listener class-name="commons.reportConfig.AllureTestListener" />
+    </listeners>
+    <test name="Run Post on Window 10 Firefox" >
+        <parameter name="browserName" value="Firefox"/>
+        <parameter name="urlUser" value="http://localhost:8080/seleniumPractice/"/>
+        <parameter name="urlAdmin" value="http://localhost:8080/seleniumPractice/wp-login.php"/>
+        <parameter name="osName" value="Windows"/>
+        <parameter name="osVersion" value="10"/>
+        <classes>
+            <class name="com.wordpress.testCases.admin.browserstack.BrowserStack_Post_01_CRUDS" />
+        </classes>
+    </test>
+
+    <test name="Run Categories on OS X Big sur Chrome" >
+        <parameter name="browserName" value="Chrome"/>
+        <parameter name="urlUser" value="http://localhost:8080/seleniumPractice/"/>
+        <parameter name="urlAdmin" value="http://localhost:8080/seleniumPractice/wp-login.php"/>
+        <parameter name="osName" value="OS X"/>
+        <parameter name="osVersion" value="Big Sur"/>
+        <classes>
+            <class name="com.wordpress.testCases.admin.browserstack.BrowserStack_Post_Categories_01_CRUDS" />
+        </classes>
+    </test>
+
+</suite>

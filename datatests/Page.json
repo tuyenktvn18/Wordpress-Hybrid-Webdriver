@@ -1,0 +1,11 @@
+{
+  "newPage": {
+    "pageTitle": "Name Page_",
+    "pageBody": "Body Page_"
+  },
+  "editPage": {
+    "editPageTitle": "Edit Name Page_",
+    "editPageBody": "Edit Body Page_"
+  }
+
+}

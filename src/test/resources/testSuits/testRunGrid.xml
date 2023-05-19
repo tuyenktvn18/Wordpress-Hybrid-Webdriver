@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Selenium Grid" parallel="classes" thread-count="10">
+
+    <parameter name="envName" value="grid"></parameter>
+
+    <listeners>
+        <listener class-name="commons.reportConfig.MethodListener" />
+        <listener class-name="commons.reportConfig.AllureTestListener" />
+    </listeners>
+    <test name="Post" >
+        <parameter name="browser" value="CHROME"/>
+        <parameter name="urlUser" value="http://localhost:8080/seleniumPractice/"/>
+        <parameter name="urlAdmin" value="http://localhost:8080/seleniumPractice/wp-login.php"/>
+        <parameter name="ipAddress" value="192.168.1.13"/>
+        <parameter name="portNumber" value="5555"/>
+        <classes>
+            <class name="com.wordpress.testCases.admin.grid.Grid_Post_01_CRUDS" />
+        </classes>
+    </test>
+
+    <test name="Categories" >
+        <parameter name="browser" value="FIREFOX"/>
+        <parameter name="urlUser" value="http://localhost:8080/seleniumPractice/"/>
+        <parameter name="urlAdmin" value="http://localhost:8080/seleniumPractice/wp-login.php"/>
+        <parameter name="ipAddress" value="192.168.1.13"/>
+        <parameter name="portNumber" value="5555"/>
+        <classes>
+            <class name="com.wordpress.testCases.admin.grid.Grid_Post_Categories_01_CRUDS" />
+        </classes>
+    </test>
+
+</suite>

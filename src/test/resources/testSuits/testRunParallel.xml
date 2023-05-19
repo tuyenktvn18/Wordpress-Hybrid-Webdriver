@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" parallel="tests" thread-count="10">
+
+    <listeners>
+        <listener class-name="commons.reportConfig.MethodListener" />
+        <listener class-name="commons.reportConfig.AllureTestListener" />
+    </listeners>
+
+    <test name="Regression on Chrome" >
+        <parameter name="browserName" value="H_CHROME"/>
+        <parameter name="urlUser" value="http://localhost:8080/seleniumPractice/"/>
+        <parameter name="urlAdmin" value="http://localhost:8080/seleniumPractice/wp-login.php"/>
+        <classes>
+            <class name="com.wordpress.testCases.admin.Post_01_CRUDS" />
+            <class name="com.wordpress.testCases.admin.Page_01_CRUDS" />
+            <class name="com.wordpress.testCases.admin.Post_Categories_01_CRUDS" />
+<!--            <class name="com.wordpress.testCases.admin.Media_01_CRDS" />-->
+        </classes>
+    </test>
+
+    <test name="Regression on Firefox" >
+        <parameter name="browserName" value="H_FIREFOX"/>
+        <parameter name="urlUser" value="http://localhost:8080/seleniumPractice/"/>
+        <parameter name="urlAdmin" value="http://localhost:8080/seleniumPractice/wp-login.php"/>
+        <classes>
+            <class name="com.wordpress.testCases.admin.Post_01_CRUDS" />
+            <class name="com.wordpress.testCases.admin.Page_01_CRUDS" />
+            <class name="com.wordpress.testCases.admin.Post_Categories_01_CRUDS" />
+<!--            <class name="com.wordpress.testCases.admin.Media_01_CRDS" />-->
+        </classes>
+    </test>
+
+</suite>

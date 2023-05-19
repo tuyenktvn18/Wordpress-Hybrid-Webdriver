@@ -1,0 +1,11 @@
+{
+  "newPost": {
+    "postTitle": "Name Post_",
+    "postBody": "Body Post_"
+  },
+  "editPost": {
+    "editPostTitle": "Edit Name Post_",
+    "editPostBody": "Edit Body Post_"
+  }
+
+}
